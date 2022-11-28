@@ -1,0 +1,9 @@
+package br.edu.ifsp.login_spring.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import br.edu.ifsp.login_spring.model.Categoria;
+
+public interface CategoriaRepository extends CrudRepository<Categoria, Long>{
+    
+}
